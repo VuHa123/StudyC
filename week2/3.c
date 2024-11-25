@@ -11,4 +11,4 @@ void main(){
     printf(" x1 = (-b + sqrt(delta)) / (2 * a)\n");
     printf(" x2 = (-b - sqrt(delta)) / (2 * a)\n");
     printf("4. Ket luan va ghi lai nghiem cua phuong trinh.\n");
-}
+}`
