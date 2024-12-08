@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-int BoKhoangTrang(char *s){
+void BoKhoangTrang(char *s){
     char *p = s;
     int i;
     do{
@@ -19,6 +19,6 @@ int main(){
     printf("Nhap vao xau ky tu: ");
     fgets(s, sizeof(s), stdin);
     BoKhoangTrang(s);
-    printf("Xau sau khi xoa khoang trang: %s", s);
+    printf("Xau sau khi xoa khoang trang: %s\n", s);
     return 0;
 }
