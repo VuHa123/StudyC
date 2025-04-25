@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Study",
+			"path": "../../MySQL-YouTube-Series/Study"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c"
+		},
+		"dataworkspace.excludedProjects": [
+			"Study/Study.sqlproj"
+		]
+	}
+}

@@ -34,9 +34,9 @@ float CongSuat(int n, int m, int a[n][m]){
         for(int j = 0; j < m; j++){
             if(a[i][j] == 1){
                 if((i+1) % 2 == 0 && (j+1) % 2 == 0){
-                    totalPower += 10;
-                }else if((i+1) % 2 ==1 && (j+1) % 2 == 1){
                     totalPower += 20;
+                }else if((i+1) % 2 ==1 && (j+1) % 2 == 1){
+                    totalPower += 10;
                 }else{
                     totalPower += 15;
                 }

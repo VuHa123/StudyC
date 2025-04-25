@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void rotate(int *a, int *b, int *c){
+void rotate(int *a, int *b, int *c){ //vì mình truyền vào là địa chỉ của biến a, b, c nên lúc này *a được hiểu là *(&a) tức là giá trị của a
     int temp = *a;
     *a = *b;
     *b = *c;
